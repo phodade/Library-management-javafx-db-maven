@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "addbook.AddBookScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="807.0" prefWidth="1119.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff5b1f" height="105.0" stroke="BLACK" strokeType="INSIDE" width="1119.0" />
+      <Label layoutX="87.0" layoutY="25.0" text="Add Book">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="804.0" layoutY="27.0" text="Pratiksha (Admin)">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="book_name" layoutX="534.0" layoutY="189.0" prefHeight="31.0" prefWidth="427.0" promptText="Book Name" />
+      <TextField fx:id="book_id" layoutX="534.0" layoutY="254.0" prefHeight="31.0" prefWidth="427.0" promptText="Book ID" />
+      <TextField fx:id="book_author_name" layoutX="534.0" layoutY="324.0" prefHeight="31.0" prefWidth="427.0" promptText="Book Autor Name" />
+      <TextField fx:id="book_category" layoutX="534.0" layoutY="404.0" prefHeight="31.0" prefWidth="427.0" promptText="Book Category" />
+      <TextField fx:id="book_price" layoutX="534.0" layoutY="473.0" prefHeight="31.0" prefWidth="427.0" promptText="Book Price" />
+      <Button fx:id="close_button" layoutX="469.0" layoutY="625.0" mnemonicParsing="false" onAction="#CloseButton" prefHeight="63.0" prefWidth="174.0" style="-fx-background-color: #e42e2e;" text="Close" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="save_button" layoutX="816.0" layoutY="625.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="63.0" prefWidth="174.0" style="-fx-background-color: #0dbb67;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Label layoutX="90.0" layoutY="183.0" prefHeight="43.0" prefWidth="317.0" text="Book Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="248.0" prefHeight="43.0" prefWidth="269.0" text="Book ID">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="318.0" prefHeight="43.0" prefWidth="359.0" text="Book Author Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="392.0" prefHeight="43.0" prefWidth="351.0" text="Book Category">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="467.0" prefHeight="43.0" prefWidth="307.0" text="Book Price">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="63.0" fitWidth="65.0" layoutX="741.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

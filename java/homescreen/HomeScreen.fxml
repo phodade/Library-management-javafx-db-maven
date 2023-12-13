@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "homescreen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff691f" height="607.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="155.0" />
+      <Label fx:id="homescreen" layoutX="296.0" layoutY="67.0" prefHeight="81.0" prefWidth="433.0" text="    Home Screen">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="userManagement" layoutX="276.0" layoutY="197.0" mnemonicParsing="false" onAction="#showUserManagementScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #ff691f;" text="User Management">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="libraryManagement" layoutX="276.0" layoutY="293.0" mnemonicParsing="false" onAction="#showLibraryManagementScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #ff691f;" text="Library Management">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="276.0" layoutY="382.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #ff691f;" text="Back">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
